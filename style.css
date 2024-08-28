@@ -1,0 +1,67 @@
+body {
+    background: rgb(180, 192, 238);
+    color: rgb(45, 45, 45);
+    padding: 10px;
+    font-family: arial;
+}
+#all-contents {
+  max-width: 800px;
+    margin: auto;
+}
+
+/* navigation menu */
+nav {
+    border-radius: 10px 100px / 120px;
+    background: rgb(19, 106, 198);
+   margin: 0 auto;
+   margin-bottom: 20px;
+    display: flex;
+    padding: 10px;
+}
+h1 {
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    flex: 1;
+    margin: 0;
+}
+#nav-ul {
+    list-style-image: none;
+}
+.nav-li {
+    display: inline-block;
+    padding: 0 10px;
+}
+a {
+    text-decoration: none;
+    color: #000309f9;
+}
+
+/* main container area beneath menu */
+main {
+    border-radius: 5% / 60%;
+    background: rgb(255, 255, 255);
+    display: flex;
+}
+.sidebar {
+    margin-right: 25px;
+    padding: 10px;
+}
+.sidebar-img {
+    border-radius: 5% / 60%;
+    width: 300px;
+
+}
+.content {
+    flex: 1;
+    padding: 15px;
+}
+
+/* portfolio styles */
+#interests {
+    border: 4px rgb(2, 0, 0) ridge;
+    padding: 8px;
+}
+h2, h3 {
+    margin: 0px;
+}
