@@ -96,10 +96,13 @@
 			points = points + 1;
             changeBoxText(points);
 			speed = speed + 3
-			If (speed = postive)
-			 +3
-			 else If (speed = negative)
-			 -3
+			if (speed >= 0 ){
+				speed = speed + 3
+			}
+			 else if ( speed <0){
+
+			 speed = speed - 3
+			 }
 			};
 
 
